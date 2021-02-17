@@ -3,11 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 *cardscrapper_workspace.code-workspace
-*W:\Python_Projects\cardscrapper_project\.vscode
-*W:\Python_Projects\cardscrapper_project\ToDo.txt
-*W:\Python_Projects\cardscrapper_project\schemas2.txt
-*W:\Python_Projects\cardscrapper_project\schemas.txt
-*W:\Python_Projects\cardscrapper_project\cardscrapper_project_venv
+*.vscode
+*ToDo.txt
+*schemas2.txt
+*schemas.txt
+*cardscrapper_project_venv
 
 # C extensions
 *.so
