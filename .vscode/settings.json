@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "cardscrapper_project_venv\\Scripts\\python.exe",
+    "python.formatting.provider": "black"
+}

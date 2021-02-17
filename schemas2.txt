@@ -1,0 +1,16 @@
+create seperate database for the images adn titles. seperate from the card data itself
+on front-end, display image from the image database as long as the titles match
+
+create and add an index key value (i.e. 'efgd456' in card_img matches 'efgd456' in card_data) to match the data to the image.. might have to convert everything to JSON
+
+PostgreSQL will handle adding Unique Identifier code to each row of JSON data
+
+
+start django runserver
+
+Zyte.com
+
+open CMD with Administrator activate virtual machine and navigate to cardscrapper_project\ebay_api
+Login in with shub login, input API key, then deploy.
+
+Check on the website to see if the spider runs after logout as well as VS CODE project closed

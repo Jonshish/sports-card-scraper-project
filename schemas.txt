@@ -1,0 +1,56 @@
+# Side-Nav
+Be able to Sort by Player Name, Year, Price, Maker, Collection,
+
+# Card Section
+Convert to a selected card display section that includes.
+1. Card title
+2. Sold Price
+3. Sold Date
+4. Link to ebay listing
+5. Image
+
+### ADD CARD IMAGE FIELD TO PANDAS DATA TABLE OF CARDS ###
+### ADD PLAYER NAME FIELD TO PANDAS DATA TABLE OF CARDS ###
+### ADD COLOR FINDING ALGORYTHIM BY IMAGE FIELD TO PANDAS DATA TABLE OF CARDS ###
+
+
+
+
+
+
+# Area Chart Example
+
+Sort by Make and Collection and Player, and display sold prices of those specific card types on the chart (i.e. 2018 Panini Rookie Contender Josh Allen Cards)
+	- Will match the current and exact card selected on display in the Card Section
+
+Will only display the specific Month Sold. (i.e. all 2018 Josh Allen Panini Rookie Contender Cards sold in the month of Januart 2021)
+
+Broadly select just the players name, and be able to see all the players numerous different types of different Make and Collection cards on display in the Area Chart Example and view a trendline of the sold price via all the colelcted data
+(Josh Allen: [
+	Panini Rookie Contender: Sold Price, 
+	Panini Prizim: Sold Price,
+	Topps: Sold Price
+]
+	- Select specific integers of sold price so we only see 12 points of data in ascending order, including the last sold price at the top
+
+
+
+
+
+# Bar Chart Example
+
+Will be a copy of the Area Chart Example, but will show top sold prices of the specific month, for that specifc Card Make, Collection, and PSA Rating, in 3 month integers. 
+(i.e. top 2018 Josh Allen Panini Rookie Contender Cards sold price in the month of November, December, January)
+
+
+
+
+# Data Table Example
+Be able to sort and display data by Player Name, Year, Price, Maker, Collection, PSA rating
+Will be a refelction of the pandas csv files in the database.
+
+
+The rookie card data will be updated consistenly in the background in the database. I will use that to pull in all the data into the Chart Examples, which will display them coming from the database.
+
+
+Login Feature: Users can add in their own cards and view their porfolio in their dashboard

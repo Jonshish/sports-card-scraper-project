@@ -1,0 +1,6 @@
+TO-DO
+
+1. Fix Zyte spider issue... not deployiung from GitHub
+
+2. configure front end to display card data from teh database. use Brads video
+
