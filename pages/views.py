@@ -1,9 +1,14 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from datas.models import Data
 
 
 def index(request):
-    return render(request, "pages/index.html")
+    datas = Data.objects.all()
+
+    context = {"datas": datas}
+
+    return render(request, "pages/index.html", context)
 
 
 def login(request):
